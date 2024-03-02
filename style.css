@@ -153,14 +153,22 @@ html {
   text-shadow: var(--red-100) 1px 1px, var(--red-900) -1px -1px;
   z-index: 1;
 }
-.card__panel--front__background,
-.card__panel--inside-right {
+.card__panel--front__background {
   background: linear-gradient(
       to bottom,
       rgba(122, 39, 39, 0.9),
       rgba(64, 8, 8, 0.9) 70%
     ),
     url(./img/roller-texture-29.png) bottom / auto 150% repeat,
+    linear-gradient(to bottom, var(--red-500), var(--red-800) 70%);
+}
+.card__panel--inside-right {
+  background: linear-gradient(
+      to bottom,
+      rgba(122, 39, 39, 0.9),
+      rgba(64, 8, 8, 0.9) 70%
+    ),
+    url(./img/roller-texture-29.png) bottom right 10% / auto 150% repeat,
     linear-gradient(to bottom, var(--red-500), var(--red-800) 70%);
 }
 .card__panel--inside-left {
