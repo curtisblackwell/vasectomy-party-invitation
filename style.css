@@ -86,6 +86,28 @@ html {
   color: var(--red-grey);
 }
 
+.svg,
+.svg-shadow,
+.svg-highlight {
+  position: absolute;
+  bottom: 15%;
+  width: 30%;
+}
+.svg {
+  z-index: 3;
+  fill: var(--red-300);
+}
+.svg-shadow {
+  bottom: calc(15% - 1px);
+  z-index: 2;
+  fill: var(--red-500);
+}
+.svg-highlight {
+  bottom: calc(15% + 1px);
+  z-index: 1;
+  fill: var(--red-200);
+}
+
 /* ============================================================================================== */
 
 .card__container {
