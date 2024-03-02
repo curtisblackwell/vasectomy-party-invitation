@@ -93,6 +93,7 @@ html {
 .svg-highlight {
   position: absolute;
   bottom: 15%;
+  margin-left: -20px;
   width: 30%;
 }
 .svg {
