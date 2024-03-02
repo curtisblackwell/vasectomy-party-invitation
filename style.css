@@ -214,6 +214,18 @@ html {
   vertical-align: super;
 }
 
+.see-more {
+  color: var(--red-200);
+  margin-top: 4em;
+}
+
+.see-more span {
+  border-top: 1px solid var(--red-300);
+  border-bottom: 1px solid var(--red-300);
+  display: inline-block;
+  padding: 0.25em 0.5em;
+}
+
 /* ============================================================================================== */
 
 .content {
@@ -245,4 +257,55 @@ ul {
 
 .content li + li {
   margin-top: 1rem;
+}
+
+/* ============================================================================================== */
+
+/* ------- */
+/* Pixel 7 */
+/* ------- */
+@media (max-width: 500px) {
+  .card__container {
+    top: 30%;
+  }
+
+  .card__panel--front {
+    font-size: 0.8em;
+  }
+
+  .card__panel--inside-right {
+    padding-top: 2em;
+  }
+
+  .intro {
+    line-height: 1.5;
+  }
+
+  .party {
+    font-size: 1.5em;
+  }
+
+  .intro + br + .party {
+    margin-top: 1.5em;
+  }
+
+  .party + br + .ampersand {
+    font-size: 2em;
+    line-height: 1.5;
+  }
+
+  .meta {
+    margin-top: 1.5em;
+  }
+
+  .see-more {
+    font-size: 0.8em;
+    margin-top: 2em;
+  }
+
+  .content {
+    margin-top: 65vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
