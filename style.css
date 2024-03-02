@@ -280,8 +280,7 @@ html {
 }
 
 ul {
-  list-style-position: outside;
-  margin-left: 1rem;
+  list-style-type: none;
 }
 
 .content li {
@@ -289,7 +288,7 @@ ul {
 }
 
 .content li + li {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* ============================================================================================== */
