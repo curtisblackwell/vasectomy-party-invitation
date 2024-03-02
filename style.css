@@ -16,6 +16,7 @@
 
 html {
   background-color: #6fffe9;
+  color: #02483d;
 }
 
 .card-wrapper {
@@ -292,6 +293,8 @@ ul {
   .party + br + .ampersand {
     font-size: 2em;
     line-height: 1.5;
+    display: inline-block;
+    padding-bottom: 0.3em;
   }
 
   .meta {
@@ -299,6 +302,7 @@ ul {
   }
 
   .see-more {
+    color: var(--red-100);
     font-size: 0.8em;
     margin-top: 2em;
   }
@@ -307,5 +311,79 @@ ul {
     margin-top: 65vh;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+/* ------------------------ */
+/* Samsung Galaxy S20 Ultra */
+/* ------------------------ */
+
+@media (max-width: 412px) {
+  .intro {
+    line-height: 1.2;
+  }
+}
+
+/* ------------- */
+/* iPhone 12 Pro */
+/* ------------- */
+
+@media (max-width: 390px) {
+  .card__panel--inside-right {
+    padding-top: 2em;
+  }
+
+  .party {
+    font-size: 1.2em;
+  }
+
+  .intro + br + .party {
+    margin-top: 1.2em;
+  }
+}
+
+/* --------- */
+/* iPhone SE */
+/* --------- */
+
+@media (max-width: 375px) {
+  .card__container {
+    top: 35%;
+  }
+
+  .party + br + .ampersand {
+    font-size: 1.8em;
+    line-height: 1.2;
+  }
+
+  .meta {
+    margin-top: 1.5em;
+  }
+
+  .meta p + p {
+    margin-top: 1.2em;
+  }
+
+  .see-more {
+    font-size: 0.7em;
+    margin-top: 2em;
+  }
+
+  .content {
+    margin-top: 73vh;
+  }
+}
+
+/* ------------------ */
+/* Samsung Galaxy S8+ */
+/* ------------------ */
+
+@media (max-width: 360px) {
+  .card__panel--front {
+    font-size: 0.75em;
+  }
+
+  .meta {
+    font-size: 0.9em;
   }
 }
