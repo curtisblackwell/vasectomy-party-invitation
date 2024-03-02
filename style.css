@@ -3,6 +3,8 @@
   --red-200: #ef9a9a;
   --red-300: #c15959;
   --red-500: #7a2727;
+  --red-600: #6b0909;
+  --red-700: #540606;
   --red-800: #400808;
   --red-900: #2b0000;
   --red-grey: #bd9d9d;
@@ -95,17 +97,17 @@ html {
 }
 .svg {
   z-index: 3;
-  fill: var(--red-300);
+  fill: var(--red-700);
 }
 .svg-shadow {
   bottom: calc(15% - 1px);
   z-index: 2;
-  fill: var(--red-500);
+  fill: var(--red-900);
 }
 .svg-highlight {
   bottom: calc(15% + 1px);
   z-index: 1;
-  fill: var(--red-200);
+  fill: var(--red-500);
 }
 
 /* ============================================================================================== */
